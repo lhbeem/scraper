@@ -38,7 +38,7 @@ def main(args):
     
     
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='check picking status')
+    parser = argparse.ArgumentParser(description='scrape crossref citations')
 
     parser.add_argument('vol', help= 'volume of cryosphere to scrap') 
     args = parser.parse_args()
