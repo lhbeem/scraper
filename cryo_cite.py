@@ -28,7 +28,6 @@ def page_cite(soup):
 
 
 def main(args):
-    print
     for issue in range(1,13):
         r = requests.get(f'https://tc.copernicus.org/articles/{args.vol}/issue{issue}.html')
         soup = BeautifulSoup(r.content, 'html.parser')
